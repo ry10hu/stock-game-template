@@ -17,22 +17,30 @@ Then install all pip dependencies with `pip3 install -r piprequirements.txt`
 ### Adding commands
 
 
-As of 2/25/2024, these are the current commands:
+As of 4/5/2024 these are the current commands:
+
 * `buy` or `b`
   * Buys stocks.
+  * Syntax:
+    * buy {stock} {amount}
 * `sell` or `s`
   * Sells stocks.
+  * Syntax:
+    * sell {stock} {amount}
 * `inventory` or `i`
-  * Lists all drugs and how many you own along with the current price.
+  * Lists all stocks and how many you own along with the current price.
 * `price`
-  * Check the price of a certain stock.
+  * Check the price of a certain stock
+  * Syntax:
+    * Price:
+    * price {stock}
 * `balance` or `bal`
   * Tells you how much money you have. 
 * `clear` or `cls`
-  * Clears the terminal.
+  * Clears the terminal
 
 
-To add more, use `user_input == command:` in `commands.py` right after `user_input == input(Fore.BLUE + "\nWhat would you like to do? " + {typing_colour).lower()` And define your logic.
+
 
 ### Adding stocks
 
